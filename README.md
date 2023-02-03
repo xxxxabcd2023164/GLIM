@@ -13,7 +13,7 @@ This repo is for source code of paper "Liberate Pseudo Labels from Over-Dependen
 
 ## Main Methods
 
-Here we provide an implementation of GLIM in PyTorch, along with an execution example on Cora datasets.  Our code on all datasets will be released for further study after the paper is accepted.
+Here we provide an implementation of GLIM in PyTorch, along with an execution example on Cora datasets. 
 ```python
 python train_model.py --dataset=Cora --sparse_threshold=0.05 --dense_threshold=0.9 --pseudo_rate=0.6
 ```
